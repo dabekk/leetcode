@@ -1,5 +1,7 @@
 Difficulty: medium
+
 Link: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
+
 Link 2: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/
 
 Description
