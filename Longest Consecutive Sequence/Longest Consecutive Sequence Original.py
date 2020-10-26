@@ -1,7 +1,4 @@
-class Solution:
-    
-    def longestConsecutiveCount(self, nums: List[int]) -> int:
-        if(len(nums) > 0):         # account for list being empty
+if(len(nums) > 0):         # account for list being empty
             curr_count = 1
             curr_max = 1
         else:
@@ -23,9 +20,14 @@ class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         nums = sorted(nums)
         i = 0
-        
+        for i in range(len(nums)):
+            if(nums[i] >= 0):
+                break
+            
         negatives = nums[:i]
         positives = nums[i:]
+        print(negatives)
+        print(positives)
         
         max_neg = self.longestConsecutiveCount(negatives)
         max_pos = self.longestConsecutiveCount(positives)
@@ -33,6 +35,3 @@ class Solution:
             return max_neg
         else:
             return max_pos
-    
-    
-        
