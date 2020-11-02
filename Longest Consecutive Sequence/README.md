@@ -27,4 +27,9 @@ Constraints:
 
     0 <= nums.length <= 104
     -231 <= nums[i] <= 231 - 1
+    
+    
+================
+
+The trick here is to use a Set or a Dict - querying a Set or a Dict has average time complexity of O(1) as opposed to querying list with O(n)
 
