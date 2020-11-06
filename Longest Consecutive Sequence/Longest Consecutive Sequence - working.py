@@ -7,9 +7,7 @@ class Solution:
         overall_max = 1
         for num in num_set:
             current_max = 1
-            if num_set.__contains__(num - 1):
-                pass
-            else:
+            if (num - 1) not in num_set:
                 while num + 1 in num_set:
                     current_max += 1
                     num += 1
