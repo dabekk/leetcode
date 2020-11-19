@@ -1,0 +1,3 @@
+Portnetial Improvements
+
+- could read the string directly from input S rather than parsing it into array. More pythonic to "for char in S:" etc.
