@@ -1,3 +1,5 @@
 Portnetial Improvements
 
 - could read the string directly from input S rather than parsing it into array. More pythonic to "for char in S:" etc.
+- go from front to back instead of back to front
+- avoid using a queue
