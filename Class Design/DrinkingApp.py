@@ -1,4 +1,5 @@
-# You were told to develop an app to store the amount of water that you have drunk per day. Customers can input the amount of water every time they drink it, the data need # to be store and reseted everyday. Can you implement a structure like this?
+# You were told to develop an app to store the amount of water that you have drunk per day. 
+# Customers can input the amount of water every time they drink it, the data need # to be store and reseted everyday. Can you implement a structure like this?
 
 class DrinkingApp():
   def __init__(self):
